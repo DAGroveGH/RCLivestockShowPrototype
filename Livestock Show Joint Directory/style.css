@@ -1,0 +1,152 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *:before; *:after; {
+    box-sizing: inherit;
+}
+
+#container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0 2.5%;
+    border-top: 1rem solid #08364e;
+    border-bottom: 1rem solid #08364e;
+}
+
+section{
+    background: #F6F3ED;
+    margin-top: -.5rem;
+    margin-bottom: -.5rem;
+    margin-left: .75rem;
+    margin-right: .75rem;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Merriweather', "Lucida Bright", Palatino, serif;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2.25em;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #08354e;
+    
+}
+
+h2{
+    font-size: 1.75rem;
+    color: #7e9a9a;
+    margin-left: 1.25rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    /*margin-bottom: -.5rem;*/
+}
+
+h3{
+    font-size:1.25rem;
+    /*color: #d1633c;*/
+    margin-left: 1.15rem;
+    text-align: left;
+    line-height: 1.50rem;
+    margin-bottom: 1.25rem;
+    padding-top: 1.15rem;
+}
+
+nav ul {
+    margin: 0;
+    padding 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li a {
+    display: block;
+    /*border: 1px solid #08354e;*/
+    border-radius: .5em;
+    padding: .5em 1em;
+    margin: .5em;
+}
+
+/*----------------------------*/
+/*--------For Index Page------*/
+/*----------------------------*/
+
+nav ul li a:link{
+    color: #2a6592;
+}
+
+/*the color after link is pressed*/
+nav ul li a:visited{
+    /*color:#ff8533;*/
+    color: #2a6592;
+}
+
+nav ul li a:active{
+    color: #ff0000;
+    background-color:#7070db;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: none;
+} 
+
+.a_link {
+    width:20vw;
+    height:70vh;
+    text-align:center;
+    font-size:1.5em;
+    background-repeat:no-repeat;
+}
+
+.a_link:hover {
+    transition:1s;
+    transform:scale(1.1);
+    opacity:.8;
+}
+
+#register_a {
+    background-image:url("assets/clipboard.png");
+    background-position:bottom center;
+}
+
+
+#results_a {
+    background-image:url("assets/trophy.png");
+    background-position:bottom center;
+}
+
+
+#admin_a {
+    background-image:url("assets/lock.png");
+    background-position:center;
+}
+
+
+/*----------------------------*/
+/*----------Footer------------*/
+/*----------------------------*/
+
+.information{
+    /*background-color: #fff;*/
+    margin-left: -1.25rem;
+}
+
+#text,small{
+    margin-left: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-top: -1.25rem;
+    line-height: 1.5rem;
+}
+
+
+/*----------------------------*/
+/*------End of Index Page-----*/
+/*----------------------------*/
