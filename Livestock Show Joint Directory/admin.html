@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html land ="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style%20(V2).css" media="screen">
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+        <script src = "admin(V2).js"></script>
+        <title>Admin</title>
+    </head>
+    
+    <body>
+        <div id="container">
+            <header>
+                <h1>Adminstration</h1>
+
+                <div id="buttons">
+                    <nav>
+                        <ul>
+                            <li><a href="index%20(V2).html">Home</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="main">
+                <h2> Login Form for Validation</h2>
+                <form id="form_id" method="post" name="myform">
+                    <label>User Name :</label>
+                    <input type="text" name="username" id="username"/>
+                    <label>Password :</label>
+                    <input type="password" name="password" id="password"/>
+                    <input type="button" value="Login" id="submit" onclick="validate()"/>
+                    <br>
+                    <br>
+                    <span><b class="note">Note : </b>For this, use following username and password. <br/><b class="valid">User Name : John<br/>Password : Test</b></span>
+                </form>
+                <br>
+            </div>
+        </div>
+    </body>
+</html>
+
+            
