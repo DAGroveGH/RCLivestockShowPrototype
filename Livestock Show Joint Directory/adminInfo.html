@@ -1,53 +1,45 @@
 <!DOCTYPE html>
 <html land ="en">
     <head>
-        <link rel="stylesheet" type="text/css" href="style%20(V2).css" media="screen">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-        <script src="admin(V2).js"></script>
-        <title>Admin</title>
+        <title>Administrator</title>
+	<script src="adminInfo.js"></script>
     </head>
-    
+
+        
     <body>
         <div id="container">
             <header>
-                <h1>Adminstration</h1>
-
-                <div id="buttons">
-                    <nav>
-                        <ul>
-                            <li><a href="index%20(V2).html">Home</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                <h1>Administrator Home</h1>
+                    <p>View Data allows administrators to view the animal submission(s) - the information including the type of breed of the entering animal and the number of animals in each breed.
+                    <br>
+                    <p>Data Update allows administrators to revise animal submission(s)</p>
+                    <br>
+                    <p>Data Insertion allows administrators to insert data into the database.</p>
+                    <br>
+                    <p>Data Deletion allows adminstrators to delete data from the database.</p>
             </header>
             
-            <main role="main">
+<!-- Admin hub navigation buttons -->
+            
+            <main role="main" id="admin">
                 <div id="buttons">
                 <nav>
                     <ul>
-                        <div id="judging_link" class="admin_home">
-                            <p class="ac_button_text">Judging</p>
-                        </div>
-                        <br>
-                        <br>
-                        <div id="view_data" class="admin_home">
-                            <p class="ac_button_text">View Data</p>
-                        </div>
-                        <br>
-                        <br>
-                        <div id="change_data" class="admin_home">
-                            <p class="ac_button_text">Change Data</p>
-                        </div>
+                        <li><a href="viewData.html" id="viewData_a" class="a_link">View Data</a></li>
+                        <li><a href="dataUpdate.html" id="changeData_a" class="a_link">Data Update</a></li>
+                        <li><a href="dataInsertion.html" id="insertData_a" class="a_link">Data Insertion</a></li>
+                        <li><a href="dataDeletion.html" id="deleteData_a" class="a_link">Data Deletion</a></li>
+                        
                     </ul>
                 </nav>
                 </div>
-      <!--           <form class="form-logout" role="form">
-                    <input type="submit" value="Logout" id="logout" class="btn btn-primary btn-lg">
-                </form> -->
             </main>
-    
         </div>
+        <!-- logout button -->
+        <button onclick="logout()">Logout</button>
     </body>
 </html>
