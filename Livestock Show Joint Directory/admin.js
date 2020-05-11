@@ -19,33 +19,3 @@ function validate() {
         }
     }
 }
-
-/*jQuery(document).ready(function() {
-    Parse.$=jQuery;
-    Parse.initialize("...","...");
-    
-    $('.form-logout').on('submit', function(e)) {
-        //Prevent default submit event
-        e.preventDefault();    
-    }
-    
-    console.log("Performing submit");
-    
-    //logout current user
-    
-    if(Parse.User.current()) {
-        Parse.User.logOut();
-    }
-
-    // check if really logged out
-    
-    if (Parse.User.current())
-        console.log("Failed to log out!");
-    }
-
-    // do redirect
-    //window.location.replace("Sign_In.html");
-    // or
-    window.location.href = "/index(V2).html";
-    });
-});*/
