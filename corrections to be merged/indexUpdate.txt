@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <title>Home</title>
+    </head>
+    
+    <body>
+        <div id="container">
+        <header>
+            <h1>Rockingham County Annual Livestock Show</h1>
+            <!--retreived from business case -->
+            <p>Every year Rockingham county has an annual fair which host to the livestock show. The livestock show is an event where people from all over enter their livestock into a competition for the award of best in breed of animal. In order to prepare for the Rockingham county annual livestock, the submission must be done at least one week in advance.</p>
+            
+            <!-- Navigation Buttons for the home page -->
+            <div id="buttons"> 
+                <nav>
+                    <ul>
+                        <li><a href="registerUpdate.html" id="register_a" class="a_link">Exhibitor Registration</a></li>
+                        
+                        <li><a href="adminUpdate.html" id="admin_a" class="a_link">Livestock Show Administration</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html land ="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <title>Administrator</title>
+    </head>
+
+        
+    <body>
+        <div id="container">
+            <header>
+                <h1>Administrator Home</h1>
+                    <p>View Data allows administrators to view the animal submission(s) - the information including the type of breed of the entering animal and the number of animals in each breed.
+                    <br>
+                    <p>Data Update allows administrators to revise animal submission(s)</p>
+                    <br>
+                    <p>Data Insertion allows administrators to insert data into the database.</p>
+                    <br>
+                    <p>Data Deletion allows adminstrators to delete data from the database.</p>
+            </header>
+            
+<!-- Admin hub navigation buttons -->
+            
+            <main role="main" id="admin">
+                <div id="buttons">
+                <nav>
+                    <ul>
+                        <li><a href="viewDataUpdate.html" id="viewData_a" class="a_link">View Data</a></li>
+                        <li><a href="dataUpdate.html" id="changeData_a" class="a_link">Data Update</a></li>
+                        <li><a href="dataInsertion.html" id="insertData_a" class="a_link">Data Insertion</a></li>
+                        <li><a href="dataDeletion.html" id="deleteData_a" class="a_link">Data Deletion</a></li>
+                        
+                    </ul>
+                </nav>
+                </div>
+            </main>
+        </div>
+        <!-- logout button -->
+        <button onclick="logout()">Logout</button>
+        <script>
+             function logout () {
+                   document.getElementById("admin").innerHTML = "You have successfully logged out.”;
+            }
+        </script>
+    </body>
+</html>
