@@ -6,7 +6,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
         
-        <title>Results</title>
+        <title>Animal Registration</title>
     </head>
     
     <body>
@@ -16,13 +16,19 @@
                 <div id="buttons">
                     <nav>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="exhibitor_info.html">Exhibitor Home</a></li>
+                            <li><a onclick="logout()">Logout</a></li>
                         </ul>
                     </nav>
                 </div>
             </header>
+            
+            
+            <!-- Choice for Data Update -->
+            
+            
             <main role="main">
-                <form>
+                <form id="form_id" action="animal_register.php" method="POST"> 
                     <table>
                         <tr>
                             <td>
@@ -56,9 +62,16 @@
                                 </select>
                             </td>
                         </tr>
+                        
+                        <tr>
+                            <td>
+                                <input type="submit" value="animalRegister">
+                                <input type="reset">
+                            </td>
+                        </tr>
                     </table>
                 </form>
             </main>
         </div>
     </body>
-</html>                                                                                                                                                                                                 
+</html>                                                                                                                                                                                                                                                                                                                                                                                                 
