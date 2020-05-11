@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type"text/css" href="style.css" media="screen">
+        <script type="text/javascript" src="exhibitor_info.js"></script>
+        <meta charset="utf-8">
+        <link href="https://fonts.goodleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        
+        <title>Exhibitor Home</title>
+    </head>
+    
+    <body>
+        <div id="container">
+            <header>
+                <h1>Exhibitor Home</h1>
+                    <div id="button">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="animal.html">Register Animal</a></li>
+                            <li>
+                                <a onclick="logout()">Logout</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            
+            
+                <!-- Selection of Exhibitor Actions -->
+            
+            
+            <main>
+                <p>Select the information that you would like to review.</p>
+                <select id="ex" onchange="exhibitorData()">
+                    <option value="account_information"> Account Information</option>
+                    <option value="animal_information"></option>
+                </select>
+            </main>
+        </div>
+    </body>
