@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html land ="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+        <script type="text/javascript" src = "admin.js"></script>
+        <title>Admin</title>
+    </head>
+    
+        
+    <body>
+        <div id="container">
+            <header>
+                <h1>Livestock Show Administration</h1>
+                <!-- retreived from Business Case -->
+                <p>At the date of the show, the client will walk alongside the judge(s), go through the printed documents and find the corresponding “breed” of animal(s) to be judged. The client will then write down the entry number (contestant identifier) next to the animal as well as the judge’s or judges’ placement/ranking of each entry.</p>
+                <div id="buttons">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="register.html">Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            
+            
+ <!-- Form for admin to login -->
+
+    
+            <main role="main">
+                <h2>Livestock Show Administrator Login</h2>
+                <form action="adminLogin.php" method="POST">
+                    <label for="fname"> First Name: </label> <br>
+                    <input type="text" id=“fname” name="fname" value= “Mark” required><br>
+                    <label for="lname"> Last Name: </label> <br>
+                    <input type="text" id=”lname” name="lname" value= “Simth” required><br>
+                    <label for="username"> Username: </label> <br>
+                    <input type="text" id= “username” name="username" required><br>
+                    <label for="pwd"> Password: </label> <br>
+                    <input type="password" id= “pwd” name="pwd" required><br>
+                    <input type="submit" value="Login"><input type="reset">
+                </form>    
+            </main>
+        </div>
+    </body>
+</html>
+            

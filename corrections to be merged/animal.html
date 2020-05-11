@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        
+        <title>Animal Registration</title>
+    </head>
+    
+    <body>
+        <div id="container">
+            <header>
+                <h1>Register your Animal!</h1>
+                <div id="buttons">
+                    <nav>
+                        <ul>
+                            <li><a href="exhibitor_info.html">Exhibitor Home</a></li>
+                            <li><a onclick="logout()">Logout</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            
+            
+            <!-- Choice for Data Update -->
+            
+            
+            <main role="main">
+                <form id="form_id" action="animal_register.php" method="POST"> 
+                    <table>
+                        <tr>
+                            <td>
+                                Select Animal Class:
+                            </td>
+                            <td>
+                                <select id="class_select">
+                                    <option value=""></option>
+                                </select>
+                            </td>                        
+                        </tr>    
+                        
+                        <tr>
+                            <td>
+                                Exhibitor Username:
+                            </td>
+                            
+                            <td>
+                                <input type="text" placeholder="Username" name="username" id="username" required>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                Number of Entries
+                            </td>
+                            
+                            <td>
+                                <select id="num_select">
+                                    <option value=""></option>
+                                </select>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <input type="submit" value="animalRegister">
+                                <input type="reset">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>                                                                                                                                                                                                 
