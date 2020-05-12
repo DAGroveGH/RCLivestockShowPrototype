@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-        
+        <script type="text/javascript" src="animal.js"></script>
         <title>Animal Registration</title>
     </head>
     
@@ -27,51 +27,31 @@
             <!-- Choice for Data Update -->
             
             
-            <main role="main">
+            <main id="main_id" role="main">
                 <form id="form_id" action="animal_register.php" method="POST"> 
-                    <table>
-                        <tr>
-                            <td>
-                                Select Animal Class:
-                            </td>
-                            <td>
-                                <select id="class_select">
-                                    <option value=""></option>
-                                </select>
-                            </td>                        
-                        </tr>    
+                    <label for="animalClass">Select your animal class:</label>
+                    <select id="class_select">
                         
-                        <tr>
-                            <td>
-                                Exhibitor Username:
-                            </td>
-                            
-                            <td>
-                                <input type="text" placeholder="Username" name="username" id="username" required>
-                            </td>
-                        </tr>
+                        <!--TODO: List options here -->
                         
-                        <tr>
-                            <td>
-                                Number of Entries
-                            </td>
-                            
-                            <td>
-                                <select id="num_select">
-                                    <option value=""></option>
-                                </select>
-                            </td>
-                        </tr>
+                        <option value=""></option>
+                    </select>
+                    <br>
+                    <label for="username">Username:</label>
+                    <input type="text" placeholder="Username" name="username" id="username" required>
+                    <br>
+                    <label for="breed_select">Select Breed:</label>
+                    <select id="breed_select">
                         
-                        <tr>
-                            <td>
-                                <input type="submit" value="animalRegister">
-                                <input type="reset">
-                            </td>
-                        </tr>
-                    </table>
+                        <!--TODO: List options here -->
+                        
+                        <option value=""></option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Register">
+                    <input type="reset">
                 </form>
             </main>
         </div>
     </body>
-</html>                                                                                                                                                                                                                                                                                                                                                                                                 
+</html>                                                                                                                                                                                                                                                                                                                                                                                                      
