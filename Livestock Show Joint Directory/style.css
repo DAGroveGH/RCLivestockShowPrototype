@@ -121,6 +121,20 @@ nav ul li a{
     opacity:.8;
 }
 
+.a_link_admin {
+    width:15vw;
+    height:70vh;
+    text-align: center;
+    font-size:1.4em;
+    background-repeat:no-repeat;
+}
+
+.a_link_admin {
+    transition:1s;
+    transform:scale(1.1);
+    opacity:.8;
+}
+
 #register_a {
     background-image:url("assets/clipboard.png");
     background-position:bottom center;
