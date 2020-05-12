@@ -21,15 +21,42 @@
                 </div>
             </header>
             <main role="main">
-               <p>Administrators will be able to input data of each contestant within each breed in order to output the outcome of a list of winners of the top ranks of that breed. Also, allow administrators to change an entry in the case that the exhibitor improperly classified their animal or if unforeseen circumstances arrived for the animal.</p>
-        	<p> Select an item from the list to delete data.</p>
-		    <select id="tb" onchange="insertData()">
-			    <option value="Exhibitor">Exhibitor</option> 
-			    <option value="Animal">Animal</option>
-			    <option value="Animal_Category">Animal_Category</option>
-			    <option value="Show">Show</option>
-		    </select>    
-	</main>
+                 <p>Administrators will be able to input data of each contestant within each breed in order to output the outcome of a list of winners of the top ranks of that breed. Also, allow administrators to change an entry in the case that the exhibitor improperly classified their animal or if unforeseen circumstances arrived for the animal.</p>
+                <p> Select an item from the list to delete data.</p>
+                <select id="tb" onchange="insertData()">
+                    <option value="Exhibitor">Exhibitor</option> 
+                    <option value="Animal">Animal</option>
+                    <option value="Animal_Category">Animal Category</option>
+                    <option value="Show">Show</option>
+                </select>    
+
+                <form id="efm" action="dataInsertion.php" method="POST">
+                    <input type="text" id="atb" name="atb" value="Table">
+                    <br> 
+                    <input type="text" id="col1" name="col1" value="column1">
+                    <br> 
+                    <input type="text" id="col2" name="col2" value="column2">
+                    <br> 
+                    <input type="text" id="col3" name="col3" value="column3">
+                    <br> 
+                    <input type="text" id="col4" name="col4" value="column4">
+                    <br> 
+                    <input type="text" id="col5" name="col5" value="column5">
+                    <br>
+                    <input type="text" id="col6" name="col6" value="column6">
+                    <br>
+                    <input type="text" id="col7" name="col7" value="column7">
+                    <br>
+                    <input type="text" id="col8" name="col8" value="column8">
+                    <br>
+                    <input type="text" id="col9" name="col9" value="column9">
+                    <br>
+                    <input type="text" id="col10" name="col10" value="column10">
+                    <br>    
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+                </form>    
+	        </main>
         </div>
     </body>
 </html>
