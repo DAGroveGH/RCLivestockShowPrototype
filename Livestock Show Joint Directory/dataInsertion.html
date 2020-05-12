@@ -22,7 +22,14 @@
             </header>
             <main role="main">
                <p>Administrators will be able to input data of each contestant within each breed in order to output the outcome of a list of winners of the top ranks of that breed. Also, allow administrators to change an entry in the case that the exhibitor improperly classified their animal or if unforeseen circumstances arrived for the animal.</p>
-            </main>
+        	<p> Select an item from the list to delete data.</p>
+		    <select id="tb" onchange="insertData()">
+			    <option value="Exhibitor">Exhibitor</option> 
+			    <option value="Animal">Animal</option>
+			    <option value="Animal_Category">Animal_Category</option>
+			    <option value="Show">Show</option>
+		    </select>    
+	</main>
         </div>
     </body>
 </html>
