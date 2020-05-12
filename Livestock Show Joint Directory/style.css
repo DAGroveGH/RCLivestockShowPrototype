@@ -129,10 +129,11 @@ nav ul li a{
     background-repeat:no-repeat;
 }
 
-.a_link_admin {
+.a_link_admin:hover {
     transition:1s;
     transform:scale(1.1);
     opacity:.8;
+    background-color:#7070db;
 }
 
 #register_a {
