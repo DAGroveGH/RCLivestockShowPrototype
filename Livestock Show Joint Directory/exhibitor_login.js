@@ -1,4 +1,4 @@
 function logout() {
-    document.getElementById("main").innerHTML = "You have successfully logged out.";
-    window.close();
+    document.getElementById("main_id").innerHTML = "You have successfully logged out.";
+    localStorage.clear();
 }
