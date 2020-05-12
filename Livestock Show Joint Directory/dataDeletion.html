@@ -22,14 +22,25 @@
             </header>
             <main role="main">
                <p>Administrators will be able to erase animal submission(s). As well, remove an entry after the exhibition has begun.</p>
-		    <p> Select an item from the list to delete data.</p>
-		    <select id="tb" dataDel="deleteData()">
-			    <option value="Exhibitor">Exhibitor</option> 
-			    <option value="Animal">Animal</option>
-			    <option value="Animal_Category">Animal_Category</option>
-			    <option value="Show">Show</option>
-		    </select>
-		</main>
+                <p> Select an item from the list to delete data.</p>
+                <select id="tb" dataDel="deleteData()">
+                    <option value="Exhibitor">Exhibitor</option> 
+                    <option value="Animal">Animal</option>
+                    <option value="Animal_Category">Animal_Category</option>
+                    <option value="Show">Show</option>
+                </select>
+                <form id="efm" action="dataDeletion.php" method="POST">
+                    <input type="text" id="etb" name="etb" value="Table">
+                    <br>
+                    <input type="text" id="con1" name="con1" value="Con1v">
+                    <br>
+                    <input type="text" id="con2" name="con2" value="Con2v">
+                    <br>
+                    <input type="text" id="con3" name="con3" value="Con3v">
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+                </form>    
+            </main>
         </div>
     </body>
 </html>
